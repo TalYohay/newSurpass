@@ -1,0 +1,35 @@
+<!-- NEW NAV BAR -->
+
+
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a routerLink="/"><img src="../assets/images/logo3.png" width="110px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a routerLink="/">Home</a></li>
+                    <li><a routerLink="products">Products</a></li>
+                    <li><a routerLink="about">About</a></li>
+                    <li><a routerLink="contactus">Contact</a></li>
+                    <li *ngIf="userService.loggedOut()"><a routerLink="account">Account</a></li>
+                    <li *ngIf="userService.loggedIn()"><a routerLink="profile"><span class="fas fa-user"></span>{{this.name}}</a></li>
+                    <li *ngIf="userService.loggedIn()"><a (click)="onLogoutClick()"><span  class="fas fa-sign-in-alt"></span>Logout</a></li>
+
+                </ul>
+            </nav>
+            <div class="cart">
+                <a routerLink="shopping-cart"><img src="../assets/images/cart.png" width="30px" height="30px">
+                    <span class="desktop-badge desktop-melon">{{ productService.itemCount()}}</span>
+
+                </a>
+            </div>
+            <img src="../assets/images/menu.png" class="menu-icon" (click)="menutoggle()">
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,90 @@
+html {
+    height: 119%;
+}
+
+body {
+    /* min-height: 100%; */
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+body::after {
+    content: '';
+    display: block;
+    height: 100px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.ngx-pagination {
+    margin: 0 auto 80px !important;
+}
+
+.ngx-pagination a {
+    color: #ff523b;
+    display: inline-block;
+    padding: 0.1875rem 0.625rem;
+    border-radius: 0;
+    border: 1px solid #ff523b;
+}
+
+.ngx-pagination a:hover {
+    background: #ff523b !important;
+    color: #fff;
+    text-decoration: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.ngx-pagination .current {
+    padding: 0.1875rem 0.625rem;
+    background: #ff523b !important;
+    color: white !important;
+    outline: none !important;
+    text-decoration: none !important;
+}
+
+.ngx-pagination li {
+    margin-right: 10px !important;
+    border-radius: 0;
+}
+
+
+/* -----media query for menu---- */
+
+@media screen and (max-width:800px) {
+    .ngx-pagination {
+        margin-left: 0;
+        margin-bottom: 200px !important;
+    }
+}
+
+
+/* -----media query for less than 600 screen size---- */
+
+@media screen and (max-width:800px) {
+    .single-product .row {
+        text-align: left;
+    }
+    .single-product .col-2 {
+        padding: 20px 0;
+    }
+    .single-product h1 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .ngx-pagination {
+        margin-right: 10px !important;
+        margin-bottom: 500px !important;
+    }
+}

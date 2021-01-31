@@ -1,0 +1,22 @@
+
+  
+.container {
+    padding-top: 70px;
+  }
+
+  .validation-message{
+    color: red;
+  }
+  .alert {
+    background-color: transparent;
+    border: 0;
+    color: red;
+  }
+    
+    .success{
+    padding: 20px;
+    background-color: transparent;
+    border: 0;
+    color: green;
+    margin-bottom: 15px;
+    }

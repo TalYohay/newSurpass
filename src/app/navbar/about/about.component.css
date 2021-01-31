@@ -1,0 +1,30 @@
+.aboutus {
+    max-width: 1080px;
+    margin: auto;
+    /* padding-left: 25px; */
+    margin-bottom: 900px
+}
+
+@media screen and (max-width:767px) {
+    .aboutus {
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-bottom: 200px
+    }
+}
+
+@media only screen and (device-width: 768px) {
+    .aboutus {
+        margin-bottom: 500px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+@media only screen and (device-width: 1024px) {
+    .aboutus {
+        margin-bottom: 900px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}

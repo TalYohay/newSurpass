@@ -1,0 +1,48 @@
+<div class="container">
+    <div *ngIf="myOrders && myOrders.length > 0">
+        <h2>Your Orders:</h2>
+        <div *ngFor="let order of myOrders">
+            <div class="one-order">
+
+                <table>
+                    <!-- <th> -->
+                    <tr>
+                        <td>
+                            Ordered on: {{order.createdAt}} | <span>Order id: {{order._id}}</span>
+                        </td>
+                    </tr>
+                    <!-- </th> -->
+                    <tbody>
+                        <div *ngFor="let orderItem of order.orderItems">
+                            <tr>
+                                <th class="table-header-row">
+                                    Product Details
+                                </th>
+                            </tr>
+                            <tr>
+                                <td class="row">
+                                    <div class="col-20">
+                                        <img alt="{{orderItem.product_Img}}" src="{{orderItem.product_Img}}" style="margin: 20px 10px; width: 100px; height: 100px">
+                                    </div>
+                                    <div class="col-80">
+                                        <!-- <div class="product-details"> -->
+                                        <p>Product: {{orderItem.product_Name}}</p>
+                                        <p>Price: {{orderItem.product_Price / orderItem.product_Quantity | currency: '$'}}</p>
+                                        <p>Quantity: {{orderItem.product_Quantity}}</p>
+                                        <p>Total: {{orderItem.product_Price | currency: '$'}}</p>
+                                        <!-- </div> -->
+                                    </div>
+                                </td>
+                            </tr>
+                        </div>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+    <div class="no-orders" *ngIf="!myOrders || myOrders.length === 0">
+        <h2>You have no orders!</h2>
+        <a routerLink="/" class="btn">Continue Shopping &#8594;</a>
+    </div>
+</div>

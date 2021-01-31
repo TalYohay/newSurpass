@@ -1,0 +1,469 @@
+[{
+  "_id": {
+    "$oid": "5f5127f8230a2340d02a7e41"
+  },
+  "product_Name": "Black Solid Washed Cotton Cap",
+  "product_Description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "product_Price": 50,
+  "product_Img": "../assets/accessories/cap.jpg",
+  "product_Quantity": 1,
+  "category":"accessories",
+  "subCatergory":"caps",
+  "id": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f51285f230a2340d02a7e42"
+  },
+  "product_Name": "Black Launch AV Cap",
+  "product_Description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "product_Price": 50,
+  "product_Img": "../assets/accessories/cap4.jpg",
+  "product_Quantity": 1,
+  "category":"accessories",
+  "subCatergory":"caps",
+  "id": 2,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f512877230a2340d02a7e43"
+  },
+  "product_Name": "Black Printed Cap",
+  "product_Description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "product_Price": 50,
+  "product_Img": "../assets/accessories/cap2.jpg",
+  "product_Quantity": 1,
+  "category":"accessories",
+  "subCatergory":"caps",
+  "id": 3,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f512888230a2340d02a7e44"
+  },
+  "product_Name": "Blue & Black Blitzing Trucker Cap",
+  "product_Description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "product_Price": 50,
+  "product_Img": "../assets/accessories/cap3.jpg",
+  "product_Quantity": 1,
+  "category":"accessories",
+  "subCatergory":"caps",
+  "id": 4,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f5128de230a2340d02a7e45"
+  },
+  "product_Name": "Tan Brown Solid Leather",
+  "product_Description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "product_Price": 35,
+  "product_Img": "../assets/accessories/wallet.jpg",
+  "product_Quantity": 1,
+  "category":"accessories",
+  "subCatergory":"wallets",
+  "id": 5,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f512a2d230a2340d02a7e48"
+  },
+  "product_Name": "Black Solid Two Fold Leather",
+  "product_Description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "product_Price": 35,
+  "product_Img": "../assets/accessories/wallet4.jpg",
+  "product_Quantity": 1,
+  "category":"accessories",
+  "subCatergory":"wallets",
+  "id": 6,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f512aa9230a2340d02a7e49"
+  },
+  "product_Name": "Navy Blue Textured Two Fold Leather",
+  "product_Description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "product_Price": 35,
+  "product_Img": "../assets/accessories/wallet2.jpg",
+  "product_Quantity": 1,
+  "category":"accessories",
+  "subCatergory":"wallets",
+  "id": 7,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f512b03230a2340d02a7e4a"
+  },
+  "product_Name": "Grey Striped Two Fold Leather",
+  "product_Description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "product_Price": 35,
+  "product_Img": "../assets/accessories/wallet3.jpg",
+  "product_Quantity": 1,
+  "category":"accessories",
+  "subCatergory":"wallets",
+  "id": 8,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f512bca230a2340d02a7e4b"
+  },
+  "product_Name": "Black Analogue Watch TH1791478_BBD1a",
+  "product_Description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "product_Price": 250,
+  "product_Img": "../assets/accessories/watch.jpg",
+  "product_Quantity": 1,
+  "category":"accessories",
+  "subCatergory":"watches",
+  "id": 9,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f512cb6230a2340d02a7e4c"
+  },
+  "product_Name": "OUTERBANKS Black Analogue Watch AX2098",
+  "product_Description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "product_Price": 250,
+  "product_Img": "../assets/accessories/watch4.jpg",
+  "product_Quantity": 1,
+  "category":"accessories",
+  "subCatergory":"watches",
+  "id": 10,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f512d21230a2340d02a7e4d"
+  },
+  "product_Name": "Fossil Men Black Watch",
+  "product_Description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "product_Price": 250,
+  "product_Img": "../assets/accessories/watch2.jpg",
+  "product_Quantity": 1,
+  "category":"accessories",
+  "subCatergory":"watches",
+  "id": 11,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f512d8c230a2340d02a7e4e"
+  },
+  "product_Name": "Charcoal Grey Analogue Watch FS5573_OR",
+  "product_Description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "product_Price": 250,
+  "product_Img": "../assets/accessories/watch3.jpg",
+  "product_Quantity": 1,
+  "category":"accessories",
+  "subCatergory":"watches",
+  "id": 12,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f5130dd230a2340d02a7e4f"
+  },
+  "product_Name": "Men White Sneakers",
+  "product_Description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "product_Price": 150,
+  "product_Img": "../assets/shoes/shoes.jpg",
+  "product_Quantity": 1,
+  "category":"shoes",
+  "subCatergory":"shoes",
+  "id": 13,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f513102230a2340d02a7e50"
+  },
+  "product_Name": "Men White Sneakers",
+  "product_Description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "product_Price": 150,
+  "product_Img": "../assets/shoes/shoes2.jpg",
+  "product_Quantity": 1,
+  "category":"shoes",
+  "subCatergory":"shoes",
+  "id": 14,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f513124230a2340d02a7e51"
+  },
+  "product_Name": "Men Grey Sneakers",
+  "product_Description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "product_Price": 150,
+  "product_Img": "../assets/shoes/shoes3.jpg",
+  "product_Quantity": 1,
+  "category":"shoes",
+  "subCatergory":"shoes",
+  "id": 15,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f513141230a2340d02a7e52"
+  },
+  "product_Name": "Men Navy Blue Sneakers",
+  "product_Description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "product_Price": 150,
+  "product_Img": "../assets/shoes/shoes4.jpg",
+  "product_Quantity": 1,
+  "category":"shoes",
+  "subCatergory":"shoes",
+  "id": 16,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f513154230a2340d02a7e53"
+  },
+  "product_Name": "Men Grey Sneakers",
+  "product_Description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "product_Price": 150,
+  "product_Img": "../assets/shoes/shoes5.jpg",
+  "product_Quantity": 1,
+  "category":"shoes",
+  "subCatergory":"shoes",
+  "id": 17,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f513186230a2340d02a7e54"
+  },
+  "product_Name": "Men Black Solid Sneakers",
+  "product_Description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "product_Price": 150,
+  "product_Img": "../assets/shoes/shoes6.jpg",
+  "product_Quantity": 1,
+  "category":"shoes",
+  "subCatergory":"shoes",
+  "id": 18,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f5131a5230a2340d02a7e55"
+  },
+  "product_Name": "Men Blue Sneakers",
+  "product_Description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "product_Price": 150,
+  "product_Img": "../assets/shoes/shoes7.jpg",
+  "product_Quantity": 1,
+  "category":"shoes",
+  "subCatergory":"shoes",
+  "id": 19,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f5131bd230a2340d02a7e56"
+  },
+  "product_Name": "Men White Solid Mid-Top Sneakers",
+  "product_Description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "product_Price": 150,
+  "product_Img": "../assets/shoes/shoes8.jpg",
+  "product_Quantity": 1,
+  "category":"shoes",
+  "subCatergory":"shoes",
+  "id": 20,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f5131d6230a2340d02a7e57"
+  },
+  "product_Name": "Men Grey Sneakers",
+  "product_Description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "product_Price": 150,
+  "product_Img": "../assets/shoes/shoes9.jpg",
+  "product_Quantity": 1,
+  "category":"shoes",
+  "subCatergory":"shoes",
+  "id": 21,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f5131ea230a2340d02a7e58"
+  },
+  "product_Name": "Men Brown Sneakers",
+  "product_Description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "product_Price": 150,
+  "product_Img": "../assets/shoes/shoes10.jpg",
+  "product_Quantity": 1,
+  "category":"shoes",
+  "subCatergory":"shoes",
+  "id": 22,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f5131fa230a2340d02a7e59"
+  },
+  "product_Name": "Men Black Slip-Ons",
+  "product_Description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "product_Price": 150,
+  "product_Img": "../assets/shoes/shoes11.jpg",
+  "product_Quantity": 1,
+  "category":"shoes",
+  "subCatergory":"shoes",
+  "id": 23,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f513247230a2340d02a7e5a"
+  },
+  "product_Name": "Men White Sneakers",
+  "product_Description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "product_Price": 150,
+  "product_Img": "../assets/shoes/shoes12.jpg",
+  "product_Quantity": 1,
+  "category":"shoes",
+  "subCatergory":"shoes",
+  "id": 24,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f5133ad230a2340d02a7e5b"
+  },
+  "product_Name": "Men Charcoal Grey & Black",
+  "product_Description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "product_Price": 70,
+  "product_Img": "../assets/clothes/tshirt3.jpg",
+  "product_Quantity": 1,
+  "category":"clothes",
+  "subCatergory":"tshirts",
+  "id": 25,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f5133f7230a2340d02a7e5c"
+  },
+  "product_Name": "Men White Printed Longline",
+  "product_Description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "product_Price": 70,
+  "product_Img": "../assets/clothes/tshirt4.jpg",
+  "product_Quantity": 1,
+  "category":"clothes",
+  "subCatergory":"tshirts",
+  "id": 26,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f513410230a2340d02a7e5d"
+  },
+  "product_Name": "Men Navy Blue Striped Round Neck",
+  "product_Description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "product_Price": 70,
+  "product_Img": "../assets/clothes/tshirt2.jpg",
+  "product_Quantity": 1,
+  "category":"clothes",
+  "subCatergory":"tshirts",
+  "id": 27,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f513424230a2340d02a7e5e"
+  },
+  "product_Name": "Men Black Printed Round Neck",
+  "product_Description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "product_Price": 70,
+  "product_Img": "../assets/clothes/tshirt.jpg",
+  "product_Quantity": 1,
+  "category":"clothes",
+  "subCatergory":"tshirts",
+  "id": 28,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f5134d3230a2340d02a7e5f"
+  },
+  "product_Name": "Men Navy Blue Solid Slim Fit",
+  "product_Description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "product_Price": 70,
+  "product_Img": "../assets/clothes/shorts.jpg",
+  "product_Quantity": 1,
+  "category":"clothes",
+  "subCatergory":"shorts",
+  "id": 29,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f5134f3230a2340d02a7e60"
+  },
+  "product_Name": "Men Khaki Cotton Linen",
+  "product_Description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "product_Price": 70,
+  "product_Img": "../assets/clothes/shorts2.jpg",
+  "product_Quantity": 1,
+  "category":"clothes",
+  "subCatergory":"shorts",
+  "id": 30,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f51350c230a2340d02a7e61"
+  },
+  "product_Name": "Men Black Striped Slim Fit",
+  "product_Description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "product_Price": 70,
+  "product_Img": "../assets/clothes/shorts3.jpg",
+  "product_Quantity": 1,
+  "category":"clothes",
+  "subCatergory":"shorts",
+  "id": 31,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f513520230a2340d02a7e62"
+  },
+  "product_Name": "Men Navy Blue Checked Slim Fit",
+  "product_Description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "product_Price": 70,
+  "product_Img": "../assets/clothes/shorts4.jpg",
+  "product_Quantity": 1,
+  "category":"clothes",
+  "subCatergory":"shorts",
+  "id": 32,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f51362c230a2340d02a7e63"
+  },
+  "product_Name": "Men Blue Tapered Fit Solid",
+  "product_Description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "product_Price": 100,
+  "product_Img": "../assets/clothes/trousers.jpg",
+  "product_Quantity": 1,
+  "category":"clothes",
+  "subCatergory":"trousers",
+  "id": 33,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f513641230a2340d02a7e64"
+  },
+  "product_Name": "Men Grey Slim Fit Checked Regular",
+  "product_Description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "product_Price": 100,
+  "product_Img": "../assets/clothes/trousers2.jpg",
+  "product_Quantity": 1,
+  "category":"clothes",
+  "subCatergory":"trousers",
+  "id": 34,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f513652230a2340d02a7e65"
+  },
+  "product_Name": "Men Grey Tapered Fit Solid",
+  "product_Description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "product_Price": 100,
+  "product_Img": "../assets/clothes/trousers3.jpg",
+  "product_Quantity": 1,
+  "category":"clothes",
+  "subCatergory":"trousers",
+  "id": 35,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f513665230a2340d02a7e66"
+  },
+  "product_Name": "Men Black Slim Fit Solid",
+  "product_Description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "product_Price": 100,
+  "product_Img": "../assets/clothes/trousers4.jpg",
+  "product_Quantity": 1,
+  "category":"clothes",
+  "subCatergory":"trousers",
+  "id": 36,
+  "__v": 0
+}]

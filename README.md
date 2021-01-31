@@ -1,0 +1,1 @@
+Developed a MEAN stack ecommerce sports shop with user registeration, login, and user profile to gain hands on experience.

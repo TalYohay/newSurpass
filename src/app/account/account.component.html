@@ -1,0 +1,123 @@
+<div class="account-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <img src="../assets/images/image1.png" width="100%">
+            </div>
+            <div class="col-2">
+                <div class="form-container">
+                    <div class="form-btn">
+                        <span (click)="loginSection()">Login</span>
+                        <span (click)="registerSection()">Sign up</span>
+                        <hr id="indicator">
+                    </div>
+                    <!-- -------login page--------- -->
+                    <form [formGroup]="loginForm" (ngSubmit)="loginForm.valid && login()" id="LoginFormSection">
+                        <div class="form-group">
+
+                            <input type="text" class="form-control" #email formControlName="email" placeholder="Enter your email..." required [pattern]="emailRegex">
+                            <div *ngIf="loginForm.controls['email'].invalid && 
+                        (loginForm.controls['email'].dirty || 
+                        loginForm.controls['email'].touched)" class="alert alert-danger">
+                                <div *ngIf="loginForm.controls['email'].errors.required">
+                                    Email is required!
+                                </div>
+                                <div *ngIf="loginForm.controls['email'].errors.pattern">
+                                    Invalid email!
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="form-group">
+
+                            <input type="password" class="form-control" #password formControlName="password" minlength="4" placeholder="Enter your password..." required>
+                            <div *ngIf="loginForm.controls['password'].invalid && 
+                            (loginForm.controls['password'].dirty || 
+                            loginForm.controls['password'].touched)" class="alert alert-danger">
+                                <div *ngIf="loginForm.controls['password'].errors.required">
+                                    Password is required!
+                                </div>
+                                <div *ngIf="loginForm.controls['password'].errors.minlength" class="alert alert-danger">
+                                    Enter atleast 4 characters.</div>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn">Login</button>
+                        <div class="validation-message" *ngIf="loginFailed">Login failed!</div>
+                    </form>
+
+                    <!-- -------end of login page--------- -->
+
+
+                    <!-- -------signup page--------- -->
+
+                    <form [formGroup]="signUpForm" (ngSubmit)="signUpForm.valid && signUp()" id="RegFormSection">
+                        <!-- signUp(userDetails) -->
+                        <div class="form-group">
+
+                            <input type="text" class="form-control" #name formControlName="name" placeholder="Enter your name..." [pattern]="nameRegex">
+                            <div *ngIf="signUpForm.controls['name'].invalid && 
+                                (signUpForm.controls['name'].dirty || 
+                                signUpForm.controls['name'].touched)" class="alert alert-danger">
+                                <div *ngIf="signUpForm.controls['name'].errors.required">
+                                    Name is required!
+                                </div>
+                                <div *ngIf="signUpForm.controls['name'].errors.pattern">
+                                    Alphabetic characters only!
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <div class="form-group">
+
+                            <input type="text" class="form-control" #email formControlName="email" placeholder="Enter your email..." required [pattern]="emailRegex">
+                            <div *ngIf="signUpForm.controls['email'].invalid && 
+                                (signUpForm.controls['email'].dirty || 
+                                signUpForm.controls['email'].touched)" class="alert alert-danger">
+                                <div *ngIf="signUpForm.controls['email'].errors.required">
+                                    Email is required!
+                                </div>
+                                <div *ngIf="signUpForm.controls['email'].errors.pattern">
+                                    Invalid email!
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <input type="password" class="form-control" #password formControlName="password" minlength="4" placeholder="Enter your password..." required>
+                            <div *ngIf="signUpForm.controls['password'].invalid && 
+                                (signUpForm.controls['password'].dirty || 
+                                signUpForm.controls['password'].touched)" class="alert alert-danger">
+                                <div *ngIf="signUpForm.controls['password'].errors.required">
+                                    Password is required!
+                                </div>
+                                <div *ngIf="signUpForm.controls['password'].errors.minlength" class="alert alert-danger">
+                                    Enter atleast 4 characters.</div>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn">Sign Up</button>
+                    </form>
+
+
+                    <div class="success" *ngIf="showSuccessMessage">
+                        Saved successfully
+                    </div>
+
+                    <div class="alert alert-danger" *ngIf="serverErrorMessages">
+                        Email already Exists!
+                    </div>
+                    <!-- -------end of signup page--------- -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

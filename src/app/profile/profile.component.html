@@ -1,0 +1,19 @@
+<div *ngIf="user">
+    <div class="container">
+        <h2 class="page-header">Hi {{user.name}}</h2>
+        <br>
+        <div class="personal-details-block">
+            <div class="personal-details-title">
+                Personal Details
+            </div>
+            <div class="my-details-content">
+                <p><label>Name:</label> {{user.name}}</p>
+                <p><label>Email:</label> {{user.email}}</p>
+            </div>
+
+        </div>
+        <div>
+            <a class="btn" routerLink="/profile/orders"> My Orders <span class="fas fa-box-open" ></span></a>
+        </div>
+    </div>
+</div>

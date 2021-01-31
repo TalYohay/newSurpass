@@ -1,0 +1,13 @@
+.container {
+    padding-top: 70px;
+}
+
+.validation-message{
+    color: red;
+}
+
+.alert {
+    background-color: transparent;
+    border: 0;
+    color: red;
+  }

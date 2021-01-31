@@ -1,0 +1,171 @@
+.alert {
+    background-color: transparent;
+    border: 0;
+    color: red;
+}
+
+.container {
+    padding-top: 70px;
+    margin-bottom: 400px;
+}
+
+.contact-us-title {
+    text-align: left;
+    /* background-color: #f3f3f3; */
+    background-color: #ff523b;
+    color: white;
+    padding: 10px 10px 10px 15px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.form-container {
+    border: 1px solid #dedede;
+    /* border: 1px solid #ff523b; */
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+form {
+    padding-left: 15px;
+    display: block;
+    /* font-size: 15px; */
+    margin-top: 20px;
+}
+
+form select {
+    padding: 6px 10px;
+    /* border: 1px solid rgb(204, 204, 204); */
+    border: 1px solid #ff523b;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    width: 70%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+form input {
+    padding: 6px 10px;
+    font-family: 'Poppins', sans-serif;
+    width: 70%;
+    /* border: 1px solid rgb(204, 204, 204); */
+    border: 1px solid #ff523b;
+    font-size: 15px;
+}
+
+form textarea {
+    /* border: 1px solid rgb(204, 204, 204); */
+    border: 1px solid #ff523b;
+    width: 70%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    padding: 6px 10px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+a {
+    cursor: pointer;
+}
+
+
+/* form .btn {
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn:hover {
+    background: #563434;
+} */
+
+form button {
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+form button:disabled {
+    background: #dddddd;
+}
+
+form button:hover:enabled {
+    background: #563434;
+}
+
+hr {
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 2px solid #ff523b;
+    width: 70%
+}
+
+@media screen and (max-width:600px) {
+    .form-container {
+        margin: auto;
+    }
+    .contact-us-title {
+        text-align: center;
+    }
+    form {
+        text-align: center;
+    }
+    hr {
+        width: 70%;
+        margin: 10px auto;
+    }
+}
+
+@media screen and (max-width:1039px) {
+    .form-container {
+        margin: auto;
+    }
+    .contact-us-title {
+        text-align: center;
+    }
+    form {
+        text-align: center;
+    }
+    hr {
+        width: 70%;
+        margin: 10px auto;
+    }
+}
+
+@media only screen and (device-width: 768px) {
+    .container {
+        padding-bottom: 300px;
+    }
+    .form-container {
+        border: 0px
+    }
+}
+
+@media only screen and (device-width: 1024px) {
+    .form-container {
+        border: 0px
+    }
+    .container {
+        padding-bottom: 700px;
+    }
+}

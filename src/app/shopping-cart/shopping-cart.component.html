@@ -1,0 +1,108 @@
+<!-- <div class = "container" *ngIf = "itemInCart()">
+        <div class = "table-responsive">
+            <table class = "table">
+                <thead class="black white-text">
+                    <tr class="text-center">
+                        <td><strong>Image</strong></td>
+                        <td ><strong>Product</strong></td>
+                        <td><strong>Description</strong></td>
+                        <td><strong>Price</strong></td>
+                        <td><strong>Quantity</strong></td>
+                        <td><strong>Add / Remove</strong></td>
+                        <td colspan="10" ><strong>Total For Item</strong></td>
+        
+                    </tr>
+                </thead>
+                    <tbody class="text-center">
+                        <tr *ngFor = "let prod of productAddedToCart;">
+                            <td><img src = {{prod.product_Img}} style = "height:70px; width:70px;"></td>
+                            <td>{{prod.product_Name}}</td>
+                            <td>{{prod.product_Description}}</td>
+                            <td>{{prod.product_Price | currency: '$'}}</td>
+                            <td>{{prod.product_Quantity}}</td>
+                            <td><a class="btn btn-sm"  mdbBtn color="success" mdbWavesEffect (click)="onAddQuantity(prod); CountCartQuantity(prod)">+</a>
+                            <a class="btn btn-sm" mdbBtn color="danger" mdbWavesEffect (click)= "onRemoveQuantity(prod)">-</a></td> 
+                            <td colspan="6">{{prod.product_Price * prod.product_Quantity | currency: '$'}}</td>
+                        </tr>
+                        
+                    </tbody>
+                    <tfoot >
+                            <tr>
+                                <td><strong>Total Price</strong></td>
+                                <td colspan="12" class="text-right"><strong>{{allTotal | currency: '$' }}</strong></td>
+                                </tr>
+                                <tr>
+                         <td routerLink = "/"  class="btn btn-warning btn-block" mdbWavesEffect><i class="fa fa-angle-left"></i> Continue Shopping</td>
+                         <td colspan="10" class="hidden-xs" style=" border: 0"></td>
+                    
+                        <td *ngIf = "userService.loggedIn()" routerLink = "/checkout"  class="text-right" class="btn btn-success btn-block" mdbWavesEffect> Checkout <i class="fa fa-angle-right"></i></td>
+                                            
+                        <td *ngIf = "userService.loggedOut()" routerLink = "/login"  class="text-right" class="btn btn-danger btn-block" mdbWavesEffect> Checkout? Please login <i class="fa fa-angle-right"></i></td>
+
+                    </tr>
+                        <tr>
+                        <td mdbBtn color="danger"  mdbWavesEffect (click)= "clearCart()"> <span class = "fa fa-trash"></span> Clear Cart</td>
+                    </tr>
+                    </tfoot>
+            </table>
+        </div>
+    </div>
+    <div class = "container" class = "emptyCart text-center" *ngIf = "cartIsEmpty()">
+        <h2>Your cart is empty!</h2>
+    </div>
+ -->
+
+
+<!-- --------Cart Items Details------- -->
+<div class="container" *ngIf="itemInCart()">
+    <div class="small-container cart-page">
+        <table>
+            <tr>
+                <th class="product">Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr *ngFor="let prod of productAddedToCart;">
+                <td>
+                    <div class="cart-info">
+
+                        <img src="{{prod.product_Img}}">
+
+                        <div>
+                            <p>{{prod.product_Name}}</p>
+                            <small>Price: {{prod.product_Price | currency: '$'}}</small>
+                            <br>
+                            <a class="btn" (click)='removeProduct(prod)'>Remove</a>
+                        </div>
+                    </div>
+
+                </td>
+                <td>
+                    <table class="qtyArea">
+                        <th> <a (click)="onRemoveQuantity(prod)">-</a></th>
+
+                        <th class="qtyNumber">{{prod.product_Quantity}}</th>
+                        <th> <a (click)="onAddQuantity(prod); CountCartQuantity(prod)">+</a></th>
+                    </table>
+                </td>
+                <td>{{prod.product_Price * prod.product_Quantity | currency: '$'}}</td>
+            </tr>
+        </table>
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Total</td>
+                    <td>{{allTotal | currency: '$' }}</td>
+                </tr>
+            </table>
+        </div>
+        <a routerLink="/checkout" class="checkoutBtn">Checkout &#8594;</a>
+    </div>
+</div>
+<div class="small-container cart-page" *ngIf="cartIsEmpty()">
+    <div class="empty-cart">
+        <h2>Your cart is empty!</h2>
+        <a routerLink="/" class="btn">Continue Shopping &#8594;</a>
+    </div>
+</div>
+<!-- --------End of Cart Items Details------- -->

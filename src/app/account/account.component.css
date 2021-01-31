@@ -1,0 +1,162 @@
+/* ----account page------ */
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-2 img {
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.account-page {
+    padding: 100px 0;
+    background: radial-gradient(#fff, #e3eaec);
+}
+
+.form-container {
+    background: #fff;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.form-container span {
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+
+.form-btn {
+    display: inline-block;
+}
+
+.form-container form {
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+    transition: transform 1s;
+}
+
+form input {
+    width: 130%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+
+form .btn {
+    width: 130%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+form .btn:focus {
+    outline: none;
+}
+
+#LoginFormSection {
+    left: -300px;
+}
+
+#RegFormSection {
+    left: 0
+}
+
+#indicator {
+    width: 100px;
+    border: none;
+    background: #ff523b;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: transform 1s;
+}
+
+.btn {
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+.btn:hover {
+    background: #563434;
+}
+
+.validation-message {
+    color: red;
+}
+
+.alert {
+    background-color: transparent;
+    border: 0;
+    color: red;
+    font-size: 14px;
+}
+
+.success {
+    padding: 20px;
+    background-color: transparent;
+    border: 0;
+    color: green;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width:767px) {
+    /* .categories {
+        padding-bottom: 500px !important;
+    } */
+    .row {
+        text-align: center;
+    }
+    .col-2,
+    .col-3,
+    .col-4 {
+        flex-basis: 100%;
+    }
+    /* .account-page {
+        margin-bottom: auto;
+    } */
+}
+
+@media only screen and (device-width: 768px) {
+    .account-page {
+        padding-bottom: 600px;
+    }
+}
+
+@media only screen and (device-width: 1024px) {
+    .account-page {
+        padding-bottom: 700px;
+    }
+}

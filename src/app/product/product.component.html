@@ -1,0 +1,123 @@
+<!-- <div class="AddedMessage" *ngIf="AddedMessage">
+    Product added to cart!
+</div>
+<div class="RemovedMessage" *ngIf="RemovedMessage">
+    Product removed from cart!
+</div>
+
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-4">
+            <img alt="bla" src="{{productData.product_Img}}" style="margin: 20px 10px; width: 300px; height: 281px">
+        </div>
+        <div class=c ol-md-8>
+            <div class="text-header">
+                <br>
+                <h2>{{productData.product_Name}}</h2>
+            </div>
+            <p>{{productData.product_Description}}</p>
+            <p>${{productData.product_Price}}</p>
+
+            <a mdbBtn color="primary" mdbWavesEffect (click)='AddToCart(productData); CountCartQuantity(productData)'>Add</a>
+            <a mdbBtn color="danger" mdbWavesEffect (click)='RemoveFromCart(productData)'>Remove</a>
+
+        </div>
+    </div>
+</div> -->
+
+
+<!-- --------------------------------------------------------------------------------------- -->
+
+<!-- -------Single Product details------- -->
+<div class="small-container single-product">
+    <div class="row">
+        <div class="col-2">
+            <img src="{{productData.product_Img}}" width="100%" id="productImg">
+
+            <!-- <div class="small-img-row">
+                        <div class="small-img-col">
+                            <img src="images/gallery-1.jpg" width="100%" class="small-img">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="images/gallery-2.jpg" width="100%" class="small-img">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="images/gallery-3.jpg" width="100%" class="small-img">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="images/gallery-4.jpg" width="100%" class="small-img">
+                        </div>
+                    </div> -->
+
+        </div>
+        <div class="col-2">
+            <p>
+                <a routerLink="/">Home / </a>
+                <a routerLink="/{{productData.category}}">{{productData.category}}</a>
+            </p>
+            <h1>{{productData.product_Name}}</h1>
+            <h4>${{productData.product_Price}}.00</h4>
+            <!-- <select>
+                            <option>Select Size</option>
+                            <option>XXL</option>
+                            <option>XL</option>
+                            <option>Large</option>
+                            <option>Medium</option>
+                            <option>Small</option>
+                        </select> -->
+            <!-- <input type="number" value="1" min="1" id="productQuantity"> -->
+            <a class="btn" (click)='AddToCart(productData); CountCartQuantity(productData)'>Add to Cart</a>
+            <h3>Product Details <i class="fa fa-indent"></i></h3>
+            <br>
+            <p>{{productData.product_Description}}
+            </p>
+        </div>
+    </div>
+</div>
+<!-- <a mdbBtn color="primary" mdbWavesEffect (click)='AddToCart(productData); CountCartQuantity(productData)'>Add</a>
+<a mdbBtn color="danger" mdbWavesEffect (click)='RemoveFromCart(productData)'>Remove</a> -->
+<!-- 
+    <div class = "container">
+        <div class = "title"><strong>Recommended Products:</strong></div>
+        <br>
+        <div class = "row">
+            <div class = "row justify-content-center align-items-center">
+                
+            <div *ngFor = "let produ of recommendedProducts">
+           
+                <div class = "col">
+                    <mdb-card class = "space text-center" style="border: 0.1em solid grey;">
+                        
+                        Card image
+<div class=" mx-auto ">
+
+    <a [routerLink]="['product', produ._id]">
+        <div class=i mageResize>
+            <mdb-card-img src="{{produ.product_Img}}" alt="Card image cap"></mdb-card-img>
+        </div>
+    </a>
+</div>
+
+<mdb-card-body>
+
+
+    <mdb-card-title>
+        <h4>{{produ.product_Name}}</h4>
+    </mdb-card-title>
+
+
+    <mdb-card-text>
+        <p>{{produ.product_Description}}</p>
+        ${{produ.product_Price}}
+    </mdb-card-text>
+
+
+</mdb-card-body>
+</mdb-card>
+</div>
+</div>
+</div>
+</div>
+</div> -->

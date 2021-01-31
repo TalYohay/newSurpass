@@ -1,0 +1,60 @@
+<!----search----->
+
+<!-- <div class = "container">
+
+    <div class = "center">
+      <form class="form-inline ml-left" action="/action_page.php" >
+
+        <input class="form-control mr-sm-2" #inputSearch type="text" placeholder="Search..."  [(ngModel)]="searchTerm" [ngModelOptions]="{standalone: true}">
+        <button class="btn btn-success my-2 my-sm-0" type="button" >Search</button>
+      </form>
+    </div>
+
+</div> -->
+<!----search----->
+<!-- <div class = "AddedMessage" *ngIf = "AddedMessage">
+  Product added to cart!
+</div>
+<div class = "RemovedMessage" *ngIf = "RemovedMessage">
+  Product removed from cart!
+</div> -->
+<!-- Show All Products ------------------   ---------->
+
+<!-- Show All Products ---------------------------->
+
+<div class="small-container">
+    <div class="row row-2">
+        <h2>Clothing</h2>
+        <!-- <select>
+<option>Default Sorting</option>
+<option>Sort by price</option>
+<option>Sort by popularity</option>
+<option>Sort by rating</option>
+<option>Sort by sale</option>
+</select> -->
+    </div>
+    <div class="row ">
+        <div class="col-4" *ngFor="let p of clothing | productFilter:searchTerm | paginate: { itemsPerPage:12, currentPage: pageActual}; let i = index">
+            <a [routerLink]="['/Clothing/product', p._id]">
+                <img src="{{p.product_Img}}">
+            </a>
+            <h4>{{p.product_Name}}</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+
+            </div>
+            <p>${{p.product_Price}}.00</p>
+        </div>
+        <pagination-controls (pageChange)="pageActual = $event"></pagination-controls>
+
+    </div>
+</div>
+
+
+
+<!-- Show All Products ---------------------------->
+
+<!-- Show All Products ---------------------------->

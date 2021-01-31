@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+    cursor: pointer;
+}
+
+span {
+    margin-right: 5px;
+}
+
+p {
+    color: #555;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.header .row {
+    margin-top: 70px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.menu-icon {
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+
+.desktop-melon {
+    background-color: #f16565;
+}
+
+.desktop-badge {
+    /* white-space: nowrap; */
+    text-align: center;
+    line-height: 18px;
+    padding: 0 6px;
+    height: 18px;
+    background: #f16565;
+    position: absolute;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #fff;
+    left: 20px;
+    top: -2px;
+    font-weight: 700;
+}
+
+.cart {
+    display: flex;
+    text-decoration: none;
+    position: relative;
+}
+
+
+/* -----media query for menu---- */
+
+@media screen and (max-width:800px) {
+    nav ul {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: white;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+        right: 0;
+    }
+    nav ul li {
+        display: block;
+        margin-right: 50px;
+        margin-bottom: 10px;
+        text-align: left;
+        padding-left: 20px;
+    }
+    nav ul li a {
+        color: black;
+    }
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+}
