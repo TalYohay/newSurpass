@@ -19,8 +19,8 @@ export class ProductService {
   
   
       // uri = 'http://localhost:5000/api/products'
-      uri2 = 'http://localhost:5000/api'
-      // uri2 = `https://newsurpass.herokuapp.com/api`
+//       uri2 = 'http://localhost:5000/api'
+      uri2 = `https://newsurpass.herokuapp.com/api`
 
 
   // Dependency Injection - Loosey couple 
