@@ -17,7 +17,7 @@
                     <li><a routerLink="about">About</a></li>
                     <li><a routerLink="contactus">Contact</a></li>
                     <li *ngIf="userService.loggedOut()"><a routerLink="account">Account</a></li>
-                    <li *ngIf="userService.loggedIn()"><a routerLink="profile"><span class="fas fa-user"></span>{{userServe.getUserName()}}</a></li>
+                    <li *ngIf="userService.loggedIn()"><a routerLink="profile"><span class="fas fa-user"></span>{{userService.getUserName()}}</a></li>
                     <li *ngIf="userService.loggedIn()"><a (click)="onLogoutClick()"><span  class="fas fa-sign-in-alt"></span>Logout</a></li>
 
                 </ul>
