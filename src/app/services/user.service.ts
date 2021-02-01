@@ -98,7 +98,12 @@ export class UserService {
     localStorage.removeItem('user')
   }
 
-
+  getUserName(){
+    let user = localStorage.getItem("user");
+    let retrievedObject = JSON.parse(user)
+    // console.log(retrievedObject.name)
+    return retrievedObject.name
+  }
 }
 
 
