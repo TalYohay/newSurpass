@@ -22,8 +22,8 @@ export class UserService {
 
 
 
-    uri = 'http://localhost:5000/api'
-    // uri = `https://newsurpass.herokuapp.com/api`
+//     uri = 'http://localhost:5000/api'
+    uri = `https://newsurpass.herokuapp.com/api`
 
   constructor(public http: HttpClient, public router: Router) { }
 
